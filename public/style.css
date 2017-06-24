@@ -1,0 +1,29 @@
+body {
+	background-color: dodgerblue
+}
+
+span {
+	padding: 3px;
+	width: 47.5%;
+	display: inline;
+	float:left; 
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 25px;
+	border: 1px solid dodgerblue;
+	margin: 4px;
+	margin-left: 5px;
+}
+#mainPageContent {
+	overflow: auto;
+	height: 500px;
+	width: 800px;
+	background-color: gray;
+	color: yellow;
+}
+.block, .block > *:hover {
+	cursor: pointer;
+	background-color: lightgray; 
+}
+.block > * {
+	border-radius: 5px;
+}
